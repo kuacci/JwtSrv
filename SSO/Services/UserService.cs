@@ -20,10 +20,11 @@ namespace SSO.Services
             {
                 var user = new User
                 {
-                    Name = $"Tony Xiao - {i}",
-                    Email = $"toxiao{i}@microsoft.com",
+                    Name = $"Test User - {i}",
+                    Email = $"test{i}@test.com",
                     Department = $"Depart-{i}",
-                    Alias = $"toxiao{i}"
+                    Alias = $"test{i}",
+                    Role = "Employee"
                 };
                 this._store.Add(user);
             }
